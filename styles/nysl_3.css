@@ -165,10 +165,87 @@ article h2 {
     font-size: 26px;
 }
 
+li {
+    margin-left: 7%;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+nav {
+    position: absolute;
+    top: 360px;
+    width: 20%;
+    background: #94be1f;
+}
+
+nav a {
+    display: block;
+    border: 3px solid #000;
+    margin: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+}
+
+table {
+    margin-top: 3%;
+}
+
+th {
+    padding-right: 100px;
+    text-decoration: underline;
+    text-align: left;
+}
+
 .contenedor {
     position: absolute;
     top: 300px;
     width: 100%;
+}
+
+.numerica ol {
+    list-style-type: decimal;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.subrrayado {
+    text-decoration: underline;
+}
+
+.interlinea {
+    margin-bottom: 3%;
+}
+
+.centrado {
+    width: 130px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.ajuste {
+    padding-right: 20%;
+}
+
+.primerencabezado {
+    width: 130px;
+    padding-right: 100px;
+    text-align: left;
 }
 
 #imagen {
@@ -199,25 +276,6 @@ article h2 {
     text-align: center;
 }
 
-nav {
-    position: absolute;
-    top: 360px;
-    width: 20%;
-    background: #94be1f;
-}
-
-nav a {
-    display: block;
-    border: 3px solid #000;
-    margin: 7%;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 15%;
-    font-size: 21px;
-    font-weight: bold;
-    color: #000000;
-}
-
 #contenido {
     position: absolute;
     top: 40px;
@@ -234,4 +292,71 @@ nav a {
 
 #oculto1 {
     display: none;
+}
+
+#tabla3 {
+    border-collapse: separate;
+    border-spacing: 0px 30px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+#tabla4 {
+    border-collapse: separate;
+    border-spacing: 0px 15px;
+}
+
+#tabla3 th {
+    text-decoration: none;
+}
+
+#tabla3 td {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#tabla4 th {
+    text-decoration: none;
+}
+
+#tabla4 td {
+    width: 500px;
+}
+
+#lista h3 {
+    font-weight: normal;
+    margin-left: 9%;
+    margin-bottom: 3%;
+}
+
+#lista h4 {
+    font-weight: bold;
+}
+
+#lista p {
+    margin-left: 2%;
+}
+
+#interlineado li {
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+#circulo ul {
+    list-style-type: circle;
+}
+
+#interlineado .numerica ol li .alfabetica ol {
+    list-style-type: lower-alpha;
+}
+
+#interlineado .numerica ol li .alfabetica li {
+    margin-bottom: 0%;
+    font-weight: normal;
+}
+
+#interlineado .numerica ol li .alfabetica p {
+    margin-left: 2%;
 }

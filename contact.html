@@ -5,11 +5,12 @@
 <head>
     <meta charset="utf-8">
     <title>NYSL Contact</title>
+    <link rel="stylesheet" href="styles/nysl_3.css">
 </head>
 
 <body>
 
-    <img src="images/nysl_logo.png" alt="NYSL Logo">
+    <img class="contenedor" src="images/nysl_logo.png" alt="NYSL Logo" id="logo">
 
     <header>
         <h1>Northside Youth Soccer League</h1>
@@ -17,17 +18,22 @@
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="aboutnysl.html">About NYSL</a>
+        <a href="aboutnysl.html">About <span class="oculto2">NYSL</span></a>
         <a href="#">Contact</a>
     </nav>
 
-    <img src="images/soccer_image3.jpg" alt="Soccer Image 3">
+    <div id="imagen">
+        <img src="images/soccer_image3.jpg" alt="Soccer Image 3" id="oculto">
+    </div>
 
-    <h2>Contact Us</h2>
+    <div class="contenedor">
+        <h2 id="titulo">Contact <span id="oculto1"> Us </span></h2>
 
-    <p>Please email us at <a href="mailto:nysl@chisoccer.org">nysl@chisoccer.org</a></p>
-    <p>We will reply to your email as soon we can</p>
-
+        <div id="contenido">
+            <p>Please email us at <a href="mailto:nysl@chisoccer.org">nysl@chisoccer.org</a></p>
+            <p>We will reply to your email as soon we can</p>
+        </div>
+    </div>
 
 </body>
 

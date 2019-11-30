@@ -5,11 +5,12 @@
 <head>
     <meta charset="utf-8">
     <title>Northside Youth Soccer League</title>
+    <link rel="stylesheet" href="styles/nysl_3.css">
 </head>
 
 <body>
 
-    <img src="images/nysl_logo.png" alt="NYSL Logo">
+    <img class="contenedor" src="images/nysl_logo.png" alt="NYSL Logo" id="logo">
 
     <header>
         <h1>Northside Youth Soccer League</h1>
@@ -17,30 +18,36 @@
 
     <nav>
         <a href="#">Home</a>
-        <a href="aboutnysl.html">About NYSL</a>
+        <a href="aboutnysl.html">About <span class="oculto2">NYSL</span></a>
         <a href="contact.html">Contact</a>
     </nav>
 
-    <img src="images/soccer_image1.jpg" alt="Soccer Image 1">
+    <div id="imagen">
+        <img src="images/soccer_image1.jpg" alt="Soccer Image 1" id="oculto">
+    </div>
 
-    <section>
+    <section class="contenedor">
 
-        <h2>Upcoming Events</h2>
+        <h2 id="titulo">Upcoming Events</h2>
 
-        <section>
-            <h3><em>August 4</em></h3>
-            <p>NYSL Fundraiser</p>
-        </section>
+        <div id="contenido">
 
-        <section>
-            <h3><em>August 16</em></h3>
-            <p>Season Kick-off: Meet the Teams</p>
-        </section>
+            <section>
+                <h3><em>August 4</em></h3>
+                <p>NYSL Fundraiser</p>
+            </section>
 
-        <section>
-            <h3><em>September 1</em></h3>
-            <p>First Game of the Season (Check Game Schedule for details)</p>
-        </section>
+            <section>
+                <h3><em>August 16</em></h3>
+                <p>Season Kick-off: Meet the Teams</p>
+            </section>
+
+            <section>
+                <h3><em>September 1</em></h3>
+                <p>First Game of the Season (Check Game Schedule for details)</p>
+            </section>
+
+        </div>
 
     </section>
 

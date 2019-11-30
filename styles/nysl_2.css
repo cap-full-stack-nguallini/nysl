@@ -1,0 +1,227 @@
+/* start css reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* end css reset */
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    background: green;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 1%;
+    z-index: 1;
+}
+
+nav a {
+    margin: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background: blue;
+    box-shadow: 5px 5px #000;
+    border: 2px solid #000;
+    color: #FFF;
+}
+
+p {
+    padding-left: 20px;
+    padding-bottom: 3.5%;
+}
+
+article h2 {
+    font-size: 20px;
+}
+
+.contenedor {
+    position: absolute;
+    top: 360px;
+    width: 100%;
+}
+
+.oculto2 {
+    display: none;
+}
+
+#imagen {
+    height: 300px;
+    width: 100%;
+    background: url("../images/design1_image1.jpg");
+    background-size: 100% 100%;
+}
+
+#logo {
+    position: absolute;
+    top: 300px;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    padding-top: 25px;
+    margin-left: 10%;
+}
+
+#titulo {
+    border: 1px solid #000;
+    background: white;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+
+#contenido {
+    position: absolute;
+    top: 30px;
+    left: 28%;
+    padding-top: 2.2%;
+    padding-left: 3%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+#oculto {
+    display: none;
+}

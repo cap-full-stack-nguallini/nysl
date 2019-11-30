@@ -206,6 +206,72 @@ th {
     text-align: left;
 }
 
+form {
+    margin-right: 10%;
+    font-size: 18px;
+}
+
+form p {
+    font-size: 14px;
+}
+
+fieldset {
+    padding-left: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: 1px solid #000000;
+}
+
+legend {
+    margin-left: 33%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.input_text {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #000000;
+}
+
+.sp_ctrls {
+    margin-left: 7%;
+}
+
+.boton {
+    position: absolute;
+    left: 35%;
+    background: #52544c;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ancho_chico {
+    width: 23%;
+}
+
+.ancho_mediano {
+    width: 32%;
+}
+
+.ancho_medio_largo {
+    width: 50%;
+}
+
+.ancho_largo {
+    width: 67%;
+}
+
 .contenedor {
     position: absolute;
     top: 300px;
@@ -218,6 +284,14 @@ th {
 
 .normal {
     font-weight: normal;
+}
+
+.letra_chica {
+    font-size: 16px;
+}
+
+.letra_muy_chica {
+    font-size: 14px;
 }
 
 .negrita {
@@ -246,6 +320,10 @@ th {
     width: 130px;
     padding-right: 100px;
     text-align: left;
+}
+
+.alineados {
+    display: inline-block;
 }
 
 #imagen {
